@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="id.sch.smktelkom_mlg.project2.Main2Activity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <EditText
+            android:id="@+id/editTextnama"
+            android:layout_width="323dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Nama"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/tempatlahir"
+            android:layout_width="323dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Tempat Lahir"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/tanggal"
+            android:layout_width="324dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Tanggal Lahir"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/editTexttl"
+            android:layout_width="323dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Tahun Lahir"
+            android:inputType="numberSigned"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="106dp" />
+
+        <Button
+            android:id="@+id/buttonOK"
+            style="@style/Base.TextAppearance.AppCompat.Title"
+            android:layout_width="match_parent"
+            android:layout_height="34dp"
+            android:background="@drawable/bgbtn"
+            android:gravity="center_horizontal"
+            android:text="OK"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:id="@+id/textViewHasil"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:gravity="center_horizontal"
+            android:text="Hasil" />
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
